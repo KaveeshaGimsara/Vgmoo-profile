@@ -1,0 +1,22 @@
+{
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "review.vgmoo.com"
+        }
+      ],
+      "destination": "/review.html"
+    },
+    {
+      "source": "/review",
+      "destination": "/review.html"
+    },
+    {
+      "source": "/profile",
+      "destination": "/profile.html"
+    }
+  ]
+}
