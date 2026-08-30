@@ -3,7 +3,7 @@
  * Powered by Firebase Firestore with offline localStorage resilience.
  */
 
-import { db, doc, getDoc, setDoc, collection, query, where, getDocs, serverTimestamp } from '../../config/firebase.js';
+import { db, doc, getDoc, setDoc, collection, query, where, getDocs, serverTimestamp } from '../config/firebase.js';
 import { PROFILE_ID, PROFILE } from '../config/config.js';
 
 // ── Visitor ID (stable per browser) ─────────────────────────────────────────
